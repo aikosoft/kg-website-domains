@@ -27,10 +27,11 @@ export class AppService {
             const link = cheerio('a[title]', kb)[0].attribs.title;
             console.log(rank);
             console.log(link);
+            websites.push({rank, link});
 
         });
         // const buffer = Buffer.from(hitWebPage, 'utf8');
         // fs.writeFileSync('./hitkg.html', buffer);
-        return Promise.resolve('Hello World!233');
+        return Promise.resolve(websites);
     }
 }
