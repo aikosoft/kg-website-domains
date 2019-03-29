@@ -22,10 +22,12 @@
   "dependencies": {
     "@nestjs/common": "^5.4.0",
     "@nestjs/core": "^5.4.0",
+    "@nestjs/mongoose": "^6.0.0",
     "@types/cheerio": "^0.22.11",
     "@types/request": "^2.48.1",
     "@types/request-promise": "^4.1.42",
     "cheerio": "^1.0.0-rc.2",
+    "mongoose": "^5.4.20",
     "reflect-metadata": "^0.1.12",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
